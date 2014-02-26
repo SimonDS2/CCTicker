@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4579A441711CECD000F5FD0 /* ExchangeAPIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F4579A431711CECD000F5FD0 /* ExchangeAPIConnection.m */; };
+		F4579A4717120D79000F5FD0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4579A4617120D79000F5FD0 /* ThirdViewController.m */; };
+		F4579A4A17120D8B000F5FD0 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4579A4917120D8B000F5FD0 /* FourthViewController.m */; };
+		F4579A4D17134910000F5FD0 /* CapitalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4579A4C1713490F000F5FD0 /* CapitalTableViewCell.m */; };
+		F4579A5017196093000F5FD0 /* tickerdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F4579A4E17196092000F5FD0 /* tickerdown.png */; };
+		F4579A5117196093000F5FD0 /* tickerup.png in Resources */ = {isa = PBXBuildFile; fileRef = F4579A4F17196093000F5FD0 /* tickerup.png */; };
+		F4579A561719A55A000F5FD0 /* balance.png in Resources */ = {isa = PBXBuildFile; fileRef = F4579A521719A558000F5FD0 /* balance.png */; };
+		F4579A571719A55A000F5FD0 /* currency.png in Resources */ = {isa = PBXBuildFile; fileRef = F4579A531719A558000F5FD0 /* currency.png */; };
+		F4579A581719A55A000F5FD0 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = F4579A541719A559000F5FD0 /* info.png */; };
+		F4579A591719A55A000F5FD0 /* ticker.png in Resources */ = {isa = PBXBuildFile; fileRef = F4579A551719A559000F5FD0 /* ticker.png */; };
+		F4579A64171ABC75000F5FD0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4579A62171ABC74000F5FD0 /* Icon.png */; };
+		F4579A65171ABC75000F5FD0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4579A63171ABC75000F5FD0 /* Icon@2x.png */; };
+		F4DE05A1170F4C1400A6188D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DE05A0170F4C1400A6188D /* UIKit.framework */; };
+		F4DE05A3170F4C1400A6188D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DE05A2170F4C1400A6188D /* Foundation.framework */; };
+		F4DE05A5170F4C1400A6188D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DE05A4170F4C1400A6188D /* CoreGraphics.framework */; };
+		F4DE05AB170F4C1400A6188D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05A9170F4C1400A6188D /* InfoPlist.strings */; };
+		F4DE05AD170F4C1400A6188D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DE05AC170F4C1400A6188D /* main.m */; };
+		F4DE05B1170F4C1400A6188D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DE05B0170F4C1400A6188D /* AppDelegate.m */; };
+		F4DE05B3170F4C1400A6188D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05B2170F4C1400A6188D /* Default.png */; };
+		F4DE05B5170F4C1400A6188D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05B4170F4C1400A6188D /* Default@2x.png */; };
+		F4DE05B7170F4C1400A6188D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05B6170F4C1400A6188D /* Default-568h@2x.png */; };
+		F4DE05BD170F4C1400A6188D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DE05BC170F4C1400A6188D /* FirstViewController.m */; };
+		F4DE05BF170F4C1400A6188D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05BE170F4C1400A6188D /* first.png */; };
+		F4DE05C1170F4C1400A6188D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05C0170F4C1400A6188D /* first@2x.png */; };
+		F4DE05C4170F4C1400A6188D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DE05C3170F4C1400A6188D /* SecondViewController.m */; };
+		F4DE05C6170F4C1400A6188D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05C5170F4C1400A6188D /* second.png */; };
+		F4DE05C8170F4C1400A6188D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05C7170F4C1400A6188D /* second@2x.png */; };
+		F4DE05D0170F4C1400A6188D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DE05CF170F4C1400A6188D /* SenTestingKit.framework */; };
+		F4DE05D1170F4C1400A6188D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DE05A0170F4C1400A6188D /* UIKit.framework */; };
+		F4DE05D2170F4C1400A6188D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DE05A2170F4C1400A6188D /* Foundation.framework */; };
+		F4DE05DA170F4C1500A6188D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05D8170F4C1500A6188D /* InfoPlist.strings */; };
+		F4DE05DD170F4C1500A6188D /* CCTickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DE05DC170F4C1500A6188D /* CCTickerTests.m */; };
+		F4DE05E9170F538B00A6188D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05E8170F538B00A6188D /* Settings.bundle */; };
+		F4DE05EE170F67F400A6188D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DE05EC170F67F400A6188D /* MainStoryboard.storyboard */; };
+		F4DE05F1170F718200A6188D /* CCTickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DE05F0170F718100A6188D /* CCTickerTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4DE05D3170F4C1400A6188D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DE0595170F4C1400A6188D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DE059C170F4C1400A6188D;
+			remoteInfo = CCTicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4579A421711CECD000F5FD0 /* ExchangeAPIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeAPIConnection.h; sourceTree = "<group>"; };
+		F4579A431711CECD000F5FD0 /* ExchangeAPIConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeAPIConnection.m; sourceTree = "<group>"; };
+		F4579A4517120D79000F5FD0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F4579A4617120D79000F5FD0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F4579A4817120D8B000F5FD0 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		F4579A4917120D8B000F5FD0 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		F4579A4B1713490F000F5FD0 /* CapitalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapitalTableViewCell.h; sourceTree = "<group>"; };
+		F4579A4C1713490F000F5FD0 /* CapitalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapitalTableViewCell.m; sourceTree = "<group>"; };
+		F4579A4E17196092000F5FD0 /* tickerdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tickerdown.png; sourceTree = "<group>"; };
+		F4579A4F17196093000F5FD0 /* tickerup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tickerup.png; sourceTree = "<group>"; };
+		F4579A521719A558000F5FD0 /* balance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balance.png; sourceTree = "<group>"; };
+		F4579A531719A558000F5FD0 /* currency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currency.png; sourceTree = "<group>"; };
+		F4579A541719A559000F5FD0 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		F4579A551719A559000F5FD0 /* ticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticker.png; sourceTree = "<group>"; };
+		F4579A62171ABC74000F5FD0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F4579A63171ABC75000F5FD0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F4DE059D170F4C1400A6188D /* CCTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DE05A0170F4C1400A6188D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4DE05A2170F4C1400A6188D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4DE05A4170F4C1400A6188D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4DE05A8170F4C1400A6188D /* CCTicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCTicker-Info.plist"; sourceTree = "<group>"; };
+		F4DE05AA170F4C1400A6188D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4DE05AC170F4C1400A6188D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4DE05AE170F4C1400A6188D /* CCTicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCTicker-Prefix.pch"; sourceTree = "<group>"; };
+		F4DE05AF170F4C1400A6188D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4DE05B0170F4C1400A6188D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4DE05B2170F4C1400A6188D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F4DE05B4170F4C1400A6188D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F4DE05B6170F4C1400A6188D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F4DE05BB170F4C1400A6188D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F4DE05BC170F4C1400A6188D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F4DE05BE170F4C1400A6188D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		F4DE05C0170F4C1400A6188D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		F4DE05C2170F4C1400A6188D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F4DE05C3170F4C1400A6188D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F4DE05C5170F4C1400A6188D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		F4DE05C7170F4C1400A6188D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		F4DE05CE170F4C1400A6188D /* CCTickerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTickerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DE05CF170F4C1400A6188D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4DE05D7170F4C1500A6188D /* CCTickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCTickerTests-Info.plist"; sourceTree = "<group>"; };
+		F4DE05D9170F4C1500A6188D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4DE05DB170F4C1500A6188D /* CCTickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTickerTests.h; sourceTree = "<group>"; };
+		F4DE05DC170F4C1500A6188D /* CCTickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTickerTests.m; sourceTree = "<group>"; };
+		F4DE05E8170F538B00A6188D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F4DE05ED170F67F400A6188D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F4DE05EF170F718000A6188D /* CCTickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTickerTableViewCell.h; sourceTree = "<group>"; };
+		F4DE05F0170F718100A6188D /* CCTickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTickerTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DE059A170F4C1400A6188D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE05A1170F4C1400A6188D /* UIKit.framework in Frameworks */,
+				F4DE05A3170F4C1400A6188D /* Foundation.framework in Frameworks */,
+				F4DE05A5170F4C1400A6188D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE05CA170F4C1400A6188D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE05D0170F4C1400A6188D /* SenTestingKit.framework in Frameworks */,
+				F4DE05D1170F4C1400A6188D /* UIKit.framework in Frameworks */,
+				F4DE05D2170F4C1400A6188D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4DE0594170F4C1400A6188D = {
+			isa = PBXGroup;
+			children = (
+				F4DE05A6170F4C1400A6188D /* CCTicker */,
+				F4DE05D5170F4C1500A6188D /* CCTickerTests */,
+				F4DE059F170F4C1400A6188D /* Frameworks */,
+				F4DE059E170F4C1400A6188D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DE059E170F4C1400A6188D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE059D170F4C1400A6188D /* CCTicker.app */,
+				F4DE05CE170F4C1400A6188D /* CCTickerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DE059F170F4C1400A6188D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE05A0170F4C1400A6188D /* UIKit.framework */,
+				F4DE05A2170F4C1400A6188D /* Foundation.framework */,
+				F4DE05A4170F4C1400A6188D /* CoreGraphics.framework */,
+				F4DE05CF170F4C1400A6188D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4DE05A6170F4C1400A6188D /* CCTicker */ = {
+			isa = PBXGroup;
+			children = (
+				F4579A62171ABC74000F5FD0 /* Icon.png */,
+				F4579A63171ABC75000F5FD0 /* Icon@2x.png */,
+				F4579A521719A558000F5FD0 /* balance.png */,
+				F4579A531719A558000F5FD0 /* currency.png */,
+				F4579A541719A559000F5FD0 /* info.png */,
+				F4579A551719A559000F5FD0 /* ticker.png */,
+				F4579A4E17196092000F5FD0 /* tickerdown.png */,
+				F4579A4F17196093000F5FD0 /* tickerup.png */,
+				F4DE05AF170F4C1400A6188D /* AppDelegate.h */,
+				F4DE05B0170F4C1400A6188D /* AppDelegate.m */,
+				F4DE05BB170F4C1400A6188D /* FirstViewController.h */,
+				F4DE05BC170F4C1400A6188D /* FirstViewController.m */,
+				F4DE05BE170F4C1400A6188D /* first.png */,
+				F4DE05C0170F4C1400A6188D /* first@2x.png */,
+				F4DE05C2170F4C1400A6188D /* SecondViewController.h */,
+				F4DE05C3170F4C1400A6188D /* SecondViewController.m */,
+				F4DE05EC170F67F400A6188D /* MainStoryboard.storyboard */,
+				F4DE05C5170F4C1400A6188D /* second.png */,
+				F4DE05C7170F4C1400A6188D /* second@2x.png */,
+				F4DE05A7170F4C1400A6188D /* Supporting Files */,
+				F4DE05E8170F538B00A6188D /* Settings.bundle */,
+				F4DE05EF170F718000A6188D /* CCTickerTableViewCell.h */,
+				F4DE05F0170F718100A6188D /* CCTickerTableViewCell.m */,
+				F4579A421711CECD000F5FD0 /* ExchangeAPIConnection.h */,
+				F4579A431711CECD000F5FD0 /* ExchangeAPIConnection.m */,
+				F4579A4517120D79000F5FD0 /* ThirdViewController.h */,
+				F4579A4617120D79000F5FD0 /* ThirdViewController.m */,
+				F4579A4817120D8B000F5FD0 /* FourthViewController.h */,
+				F4579A4917120D8B000F5FD0 /* FourthViewController.m */,
+				F4579A4B1713490F000F5FD0 /* CapitalTableViewCell.h */,
+				F4579A4C1713490F000F5FD0 /* CapitalTableViewCell.m */,
+			);
+			path = CCTicker;
+			sourceTree = "<group>";
+		};
+		F4DE05A7170F4C1400A6188D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE05A8170F4C1400A6188D /* CCTicker-Info.plist */,
+				F4DE05A9170F4C1400A6188D /* InfoPlist.strings */,
+				F4DE05AC170F4C1400A6188D /* main.m */,
+				F4DE05AE170F4C1400A6188D /* CCTicker-Prefix.pch */,
+				F4DE05B2170F4C1400A6188D /* Default.png */,
+				F4DE05B4170F4C1400A6188D /* Default@2x.png */,
+				F4DE05B6170F4C1400A6188D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4DE05D5170F4C1500A6188D /* CCTickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE05DB170F4C1500A6188D /* CCTickerTests.h */,
+				F4DE05DC170F4C1500A6188D /* CCTickerTests.m */,
+				F4DE05D6170F4C1500A6188D /* Supporting Files */,
+			);
+			path = CCTickerTests;
+			sourceTree = "<group>";
+		};
+		F4DE05D6170F4C1500A6188D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE05D7170F4C1500A6188D /* CCTickerTests-Info.plist */,
+				F4DE05D8170F4C1500A6188D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DE059C170F4C1400A6188D /* CCTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DE05E0170F4C1500A6188D /* Build configuration list for PBXNativeTarget "CCTicker" */;
+			buildPhases = (
+				F4DE0599170F4C1400A6188D /* Sources */,
+				F4DE059A170F4C1400A6188D /* Frameworks */,
+				F4DE059B170F4C1400A6188D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCTicker;
+			productName = CCTicker;
+			productReference = F4DE059D170F4C1400A6188D /* CCTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4DE05CD170F4C1400A6188D /* CCTickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DE05E3170F4C1500A6188D /* Build configuration list for PBXNativeTarget "CCTickerTests" */;
+			buildPhases = (
+				F4DE05C9170F4C1400A6188D /* Sources */,
+				F4DE05CA170F4C1400A6188D /* Frameworks */,
+				F4DE05CB170F4C1400A6188D /* Resources */,
+				F4DE05CC170F4C1400A6188D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DE05D4170F4C1400A6188D /* PBXTargetDependency */,
+			);
+			name = CCTickerTests;
+			productName = CCTickerTests;
+			productReference = F4DE05CE170F4C1400A6188D /* CCTickerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DE0595170F4C1400A6188D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Simon De Schutter";
+			};
+			buildConfigurationList = F4DE0598170F4C1400A6188D /* Build configuration list for PBXProject "CCTicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4DE0594170F4C1400A6188D;
+			productRefGroup = F4DE059E170F4C1400A6188D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DE059C170F4C1400A6188D /* CCTicker */,
+				F4DE05CD170F4C1400A6188D /* CCTickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DE059B170F4C1400A6188D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE05AB170F4C1400A6188D /* InfoPlist.strings in Resources */,
+				F4DE05B3170F4C1400A6188D /* Default.png in Resources */,
+				F4DE05B5170F4C1400A6188D /* Default@2x.png in Resources */,
+				F4DE05B7170F4C1400A6188D /* Default-568h@2x.png in Resources */,
+				F4DE05BF170F4C1400A6188D /* first.png in Resources */,
+				F4DE05C1170F4C1400A6188D /* first@2x.png in Resources */,
+				F4DE05C6170F4C1400A6188D /* second.png in Resources */,
+				F4DE05C8170F4C1400A6188D /* second@2x.png in Resources */,
+				F4DE05E9170F538B00A6188D /* Settings.bundle in Resources */,
+				F4DE05EE170F67F400A6188D /* MainStoryboard.storyboard in Resources */,
+				F4579A5017196093000F5FD0 /* tickerdown.png in Resources */,
+				F4579A5117196093000F5FD0 /* tickerup.png in Resources */,
+				F4579A561719A55A000F5FD0 /* balance.png in Resources */,
+				F4579A571719A55A000F5FD0 /* currency.png in Resources */,
+				F4579A581719A55A000F5FD0 /* info.png in Resources */,
+				F4579A591719A55A000F5FD0 /* ticker.png in Resources */,
+				F4579A64171ABC75000F5FD0 /* Icon.png in Resources */,
+				F4579A65171ABC75000F5FD0 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE05CB170F4C1400A6188D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE05DA170F4C1500A6188D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4DE05CC170F4C1400A6188D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DE0599170F4C1400A6188D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE05AD170F4C1400A6188D /* main.m in Sources */,
+				F4DE05B1170F4C1400A6188D /* AppDelegate.m in Sources */,
+				F4DE05BD170F4C1400A6188D /* FirstViewController.m in Sources */,
+				F4DE05C4170F4C1400A6188D /* SecondViewController.m in Sources */,
+				F4DE05F1170F718200A6188D /* CCTickerTableViewCell.m in Sources */,
+				F4579A441711CECD000F5FD0 /* ExchangeAPIConnection.m in Sources */,
+				F4579A4717120D79000F5FD0 /* ThirdViewController.m in Sources */,
+				F4579A4A17120D8B000F5FD0 /* FourthViewController.m in Sources */,
+				F4579A4D17134910000F5FD0 /* CapitalTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE05C9170F4C1400A6188D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE05DD170F4C1500A6188D /* CCTickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4DE05D4170F4C1400A6188D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DE059C170F4C1400A6188D /* CCTicker */;
+			targetProxy = F4DE05D3170F4C1400A6188D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4DE05A9170F4C1400A6188D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DE05AA170F4C1400A6188D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4DE05D8170F4C1500A6188D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DE05D9170F4C1500A6188D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4DE05EC170F67F400A6188D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DE05ED170F67F400A6188D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4579A66171C8E58000F5FD0 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Simon De Schutter (345X7W24JS)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A8FC113-B02D-4CE0-ADDE-C8F3FBE21F79";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		F4579A67171C8E58000F5FD0 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTicker/CCTicker-Prefix.pch";
+				INFOPLIST_FILE = "CCTicker/CCTicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AppStore;
+		};
+		F4579A68171C8E58000F5FD0 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CCTicker.app/CCTicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTicker/CCTicker-Prefix.pch";
+				INFOPLIST_FILE = "CCTickerTests/CCTickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = AppStore;
+		};
+		F4DE05DE170F4C1500A6188D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Simon De Schutter (56ZP7Z6F49)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E4A3A02B-7748-42EC-8282-EF880CDC51DF";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4DE05DF170F4C1500A6188D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Simon De Schutter (56ZP7Z6F49)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "51E54B7E-F602-4C6C-AA66-178DFEA0CE1D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4DE05E1170F4C1500A6188D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTicker/CCTicker-Prefix.pch";
+				INFOPLIST_FILE = "CCTicker/CCTicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4DE05E2170F4C1500A6188D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTicker/CCTicker-Prefix.pch";
+				INFOPLIST_FILE = "CCTicker/CCTicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4DE05E4170F4C1500A6188D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CCTicker.app/CCTicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTicker/CCTicker-Prefix.pch";
+				INFOPLIST_FILE = "CCTickerTests/CCTickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F4DE05E5170F4C1500A6188D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CCTicker.app/CCTicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTicker/CCTicker-Prefix.pch";
+				INFOPLIST_FILE = "CCTickerTests/CCTickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DE0598170F4C1400A6188D /* Build configuration list for PBXProject "CCTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DE05DE170F4C1500A6188D /* Debug */,
+				F4DE05DF170F4C1500A6188D /* Release */,
+				F4579A66171C8E58000F5FD0 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DE05E0170F4C1500A6188D /* Build configuration list for PBXNativeTarget "CCTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DE05E1170F4C1500A6188D /* Debug */,
+				F4DE05E2170F4C1500A6188D /* Release */,
+				F4579A67171C8E58000F5FD0 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DE05E3170F4C1500A6188D /* Build configuration list for PBXNativeTarget "CCTickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DE05E4170F4C1500A6188D /* Debug */,
+				F4DE05E5170F4C1500A6188D /* Release */,
+				F4579A68171C8E58000F5FD0 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DE0595170F4C1400A6188D /* Project object */;
+}
